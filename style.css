@@ -1,0 +1,94 @@
+body {
+    background-color: #FAFAFA;
+    font-family: sans-serif;
+}
+#game {
+    text-align: center;
+    width: 100%;
+
+}
+#choose {
+  
+    font-size: 35px;
+    color: rgb(192, 153, 94);
+}
+
+button {
+    border: none;
+    cursor:pointer;
+    outline: none;
+}
+
+#rock {
+    background: url("https://i.ibb.co/CmXKy4r/rock.png") no-repeat center;
+    background-size: 100px;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 3px solid red;
+	padding: 50px;
+}
+#paper {
+    margin: 30px;
+    background: url("https://i.ibb.co/n78g72V/paper.png") no-repeat center;
+    background-size: 100px;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 3px solid red;
+	padding: 50px;
+}
+#scissors {
+    background: url("https://i.ibb.co/Q6wjHLs/scissors.png") no-repeat center;
+    background-size: 90px;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 3px solid red;
+	padding: 50px;
+}
+.choices {
+    display: block;
+    background-size: 50px;
+	/* width: 150px; */
+	height: 150px;
+    border-radius: 50%;
+    padding: 50px;
+}
+@keyframes bounce {
+    from { transform: translate3d(0, 0, 0)}
+    to   { transform: translate3d(0, 50px, 0)}
+  }
+  .container{
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+  .row{
+    clear: both;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+  .col{
+      width: 33.3%;
+      float: left;
+  }
+  #winner{
+      margin-top: -20px;
+      clear: both;
+      color: red;
+      font-weight: bold;
+      font-size: 60px;
+  }
+
+  #userC {
+      color: black;
+      font-weight: bold;
+      font-size: 20px;
+  }
+  #compC {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}

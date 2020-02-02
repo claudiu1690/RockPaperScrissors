@@ -1,0 +1,42 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id = "game">
+      <div class="container">
+        <p id="choose"> Let's play Rock, Paper, Scrissors! </p>
+        <p id="choose"> What do you choose ? </p>
+
+        <button id="rock" onclick="rock()"></button>
+        <button id="paper" onclick="paper()"></button>
+        <button id="scissors" onclick="scissors()"></button>
+      
+        <div class="row">
+          <div class="col">
+            <span class="choices"id="playerchoice"></span>
+          </div>
+          <div class="col">
+            <p id="userC"></p> 
+            <p id="compC"></p>
+          </div>
+          <div class="col">
+            <span class="choices" id="cpuchoice"></span>
+          </div>
+        </div>
+        <h1 id="winner"></h1>
+        
+      </div>
+    </div>
+  <script src="app.js"></script>
+</body>
+</html>
